@@ -1,0 +1,21 @@
+# Runtime (Streamlit demo) — works on any Python 3.10+
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+Pillow>=10.0
+opencv-python>=4.8
+joblib>=1.3
+
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.18
+
+streamlit>=1.31
+
+# Model inference — ONNX runtime loads the VGG16 trained in the Colab notebook.
+# This means no TensorFlow needed locally to serve predictions.
+onnxruntime>=1.17
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.25

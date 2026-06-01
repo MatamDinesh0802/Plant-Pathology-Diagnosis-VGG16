@@ -1,0 +1,31 @@
+.venv/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Dataset (Plant Pathology 2020 is ~1.5 GB — download via Kaggle, don't commit)
+data/raw/images/
+data/raw/*.csv
+data/raw/*.zip
+data/processed/
+
+# Models
+models/*.h5
+models/*.keras
+models/*.pt
+models/*.onnx
+!models/.gitkeep
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Reports — keep figures committed, ignore scratch
+reports/scratch/
