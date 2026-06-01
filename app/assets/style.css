@@ -332,6 +332,100 @@ section[data-testid="stSidebar"] h2 { font-family: 'Plus Jakarta Sans', sans-ser
 .footer a { color: #15803D; text-decoration: none; }
 .footer a:hover { text-decoration: underline; }
 
+/* ---------- Login screen ---------- */
+.login-shell {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.login-card {
+    background: white;
+    border-radius: 22px;
+    padding: 2.5rem 2.5rem 1.5rem;
+    box-shadow: 0 24px 70px -20px rgba(22, 163, 74, 0.22), 0 4px 12px -4px rgba(15, 23, 42, 0.06);
+    border: 1px solid #BBF7D0;
+    max-width: 440px;
+    width: 100%;
+    margin: 0 auto;
+    animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.login-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #14532D 0%, #22C55E 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0 auto 1.2rem;
+    box-shadow: 0 12px 30px -8px rgba(22, 163, 74, 0.5);
+}
+
+.login-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.65rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+    color: #0F172A;
+    letter-spacing: -0.02em;
+}
+
+.login-subtitle {
+    text-align: center;
+    color: #64748B;
+    font-size: 0.92rem;
+    margin: 0.5rem 0 1.8rem;
+    line-height: 1.5;
+}
+
+.login-hint {
+    background: #F0FDF4;
+    border-radius: 10px;
+    padding: 0.65rem 0.9rem;
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
+    color: #166534;
+    border-left: 3px solid #22C55E;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.login-hint code {
+    background: rgba(34, 197, 94, 0.12);
+    padding: 1px 6px;
+    border-radius: 4px;
+    color: #14532D;
+    font-weight: 600;
+}
+
+.login-footer {
+    text-align: center;
+    color: #94A3B8;
+    font-size: 0.78rem;
+    margin-top: 1.5rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid #F1F5F9;
+}
+
+.login-card div[data-testid="stTextInput"] label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #334155;
+}
+
+.sidebar-logout {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #BBF7D0;
+}
+
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
 header[data-testid="stHeader"] { background: transparent; }

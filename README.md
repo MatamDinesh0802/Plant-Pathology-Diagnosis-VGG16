@@ -48,6 +48,8 @@ source .venv/bin/activate
 streamlit run app/streamlit_app.py     # launch the demo
 ```
 
+Sign in to the Streamlit demo with **Username: `Admin`** · **Password: `Admin@123`** (static demo credentials).
+
 If `models/vgg16_model.onnx` is present the Predict tab works end-to-end. If not,
 the **Image analysis** tab still works (color histogram + stats from any uploaded image).
 
@@ -142,4 +144,4 @@ Plant-Pathology-Diagnosis-VGG16/
 
 ## 👤 Author
 
-**Matam Dinesh** — [GitHub](https://github.com/MatamDinesh0802) · [Email](mailto:matamdinesh0802@gmail.com)
+**Matam Dinesh Chandra** — [GitHub](https://github.com/MatamDinesh0802) · [Email](mailto:matamdinesh0802@gmail.com)
